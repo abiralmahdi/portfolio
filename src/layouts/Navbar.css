@@ -1,0 +1,23 @@
+.nav-item {
+    transition: transform 0.2s ease;
+
+}
+
+.nav-item:hover {
+    transform: translateY(-5px);
+
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: white !important;
+    transition: transform 0.2s ease;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(13, 202, 240) !important;
+}

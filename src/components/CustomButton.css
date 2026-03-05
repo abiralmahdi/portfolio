@@ -1,0 +1,17 @@
+.transparent-btn {
+    background: rgba(255, 255, 255, 0.4); /* semi transparent white */
+    color: #000;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 30px; /* rounded borders */
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    backdrop-filter: blur(4px); /* optional glass effect */
+    transition: all 0.3s ease;
+    color:white;
+  }
+  
+  .transparent-btn:hover {
+    background: rgba(110, 200, 244, 0.75); /* less transparent */
+  }
