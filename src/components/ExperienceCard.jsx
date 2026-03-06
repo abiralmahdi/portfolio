@@ -14,9 +14,9 @@ function ExperienceCard(props){
     </div>
 
     <div className="flex-grow sm:pl-6 mt-6 sm:mt-0 experience-text">
-      <h2 className="font-medium title-font text-info mb-1 fw-bold text-3xl">{props.companyName}</h2>
-      <p className="text-white fw-bold text-2xl">{props.post}</p>
-      <p className="text-white text-xl">{props.jobDesc}</p>
+      <h2 className="font-medium title-font text-info mb-1 fw-bold text-xl">{props.companyName}</h2>
+      <p className="text-white fw-bold text-xl">{props.post}</p>
+      <p className="text-white text-lg">{props.jobDesc}</p>
     </div>
     
   </div>

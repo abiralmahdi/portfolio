@@ -43,7 +43,7 @@ function Skills() {
 
   return (
     <>
-      <h2 className="text-center fw-bold text-4xl text-info mb-6" id="skills">Skills and Expertise</h2>
+      <h2 className="text-center fw-bold text-3xl text-info mb-6" id="skills">Skills and Expertise</h2>
 
       {/* Tech Stacks with Logos */}
 <div className="my-5 container tech-carousel">
@@ -73,8 +73,8 @@ function Skills() {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 text-white">
           <div>
-            <h3 className="text-3xl text-info fw-bold mb-2">Technical Skills:</h3>
-            <ul className="list-disc ml-5 space-y-1 text-xl">
+            <h3 className="text-xl text-info fw-bold mb-2">Technical Skills:</h3>
+            <ul className="list-disc ml-5 space-y-1 text-lg">
               <li>Prompt Engineering</li>
               <li>Full-stack Web Development</li>
               <li>Android App Development (Basic)</li>
@@ -90,19 +90,19 @@ function Skills() {
           </div>
 
           <div>
-            <h3 className="text-3xl text-info fw-bold mb-2">Programming Languages:</h3>
-            <p className=" text-xl">Python, MicroPython, Java, Dart (Basic), JavaScript, ARM Assembly (Basic), HTML/CSS, C/C++, MySQL, SQLite</p>
+            <h3 className="text-xl text-info fw-bold mb-2">Programming Languages:</h3>
+            <p className=" text-lg">Python, MicroPython, Java, Dart (Basic), JavaScript, ARM Assembly (Basic), HTML/CSS, C/C++, MySQL, SQLite</p>
 
-            <h3 className="text-3xl text-info fw-bold mt-4 mb-2">Tools:</h3>
-            <p className=" text-xl">GitHub, Docker (Basic), WebRTC</p>
+            <h3 className="text-xl text-info fw-bold mt-4 mb-2">Tools:</h3>
+            <p className=" text-lg">GitHub, Docker (Basic), WebRTC</p>
 
-            <h3 className="text-3xl text-info fw-bold mt-4 mb-2">Others:</h3>
-            <p className=" text-xl">MS Word, Excel, PowerPoint, LaTeX</p>
+            <h3 className="text-xl text-info fw-bold mt-4 mb-2">Others:</h3>
+            <p className=" text-lg">MS Word, Excel, PowerPoint, LaTeX</p>
           </div>
         </div>
         <div>
-        <h3 className="text-3xl text-info fw-bold text-info font-semibold mb-2">Tech-Stacks:</h3>
-        <ul className="list-disc ml-5 space-y-2 text-xl text-white">
+        <h3 className="text-xl text-info fw-bold text-info font-semibold mb-2">Tech-Stacks:</h3>
+        <ul className="list-disc ml-5 space-y-2 text-lg text-white">
           <li>
             <strong>Web Development:</strong> ReactJS, Django, Django REST Framework, Flask, Bootstrap, TailwindCSS, Axios
           </li>

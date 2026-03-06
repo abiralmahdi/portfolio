@@ -22,3 +22,53 @@
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,150,255,0.3);
   }
+
+
+  /* Make boxes smaller */
+.quote-box-small,
+.contact-form-small {
+  max-width: 500px; /* smaller than full width */
+  margin: 0 auto;
+  padding: 1.5rem; /* smaller padding */
+}
+
+/* Reduce text size */
+.quote-box-small h2 {
+  font-size: 1.25rem; /* was text-xl */
+}
+
+.quote-box-small p,
+.contact-form-small p {
+  font-size: 0.9rem; /* smaller text */
+}
+
+.contact-form-small h2 {
+  font-size: 1.25rem; /* smaller heading */
+}
+
+.contact-form-small input,
+.contact-form-small textarea {
+  font-size: 0.875rem; /* smaller input text */
+  padding: 0.5rem 0.75rem; /* smaller padding */
+}
+
+/* Responsive tweak for mobile */
+@media (max-width: 768px) {
+  .quote-box-small,
+  .contact-form-small {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .quote-box-small h2,
+  .contact-form-small h2 {
+    font-size: 1.1rem;
+  }
+
+  .quote-box-small p,
+  .contact-form-small p,
+  .contact-form-small input,
+  .contact-form-small textarea {
+    font-size: 0.8rem;
+  }
+}

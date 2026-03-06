@@ -14,7 +14,7 @@ function Experience() {
 
   return (
     <>
-      <h2 className="text-center fw-bold text-4xl text-info mb-6"id="experience">Work Experience</h2>
+      <h2 className="text-center fw-bold text-3xl text-info mb-6"id="experience">Work Experience</h2>
 
       <section
         ref={ref}

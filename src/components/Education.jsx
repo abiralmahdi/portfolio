@@ -7,7 +7,7 @@ import configuration from "../assets/configurations.json";
 function Education() {
   return (
     <>
-    <h2 className="text-center fw-bold text-4xl text-info mb-4" id="education">Educational Qualifications</h2>
+    <h2 className="text-center fw-bold text-3xl text-info mb-4" id="education">Educational Qualifications</h2>
     <div className=" flex flex-wrap">
       <HorizontalCard
         logo={nsuLogo}

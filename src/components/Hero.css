@@ -4,6 +4,13 @@
     text-align: left;
     align-items: flex-start;
   }
+
+  .dp{ 
+    width: 310px ;
+    height: 330px; 
+    object-fit: cover; 
+    border-radius: 50% 
+  }
   
   /* Mobile view */
   @media (max-width: 768px) {
@@ -15,4 +22,9 @@
     .hero-text .flex {
       justify-content: center;
     }
+
+    .dp{
+      height: 210px; 
+    }
+
   }

@@ -14,7 +14,7 @@ function HorizontalCard({ logo, title, subject, grade, description, animation = 
     <div
   ref={ref}
   className={`card-horizontal p-4 mb-4 ${inView ? `animate__animated ${animation}` : ""}`}
-  style={{ maxWidth: "1500px", margin: "0 auto", transitionDelay: inView ? "0.2s" : "0s" }}
+  style={{ maxWidth: "1200px", margin: "0 auto", transitionDelay: inView ? "0.2s" : "0s" }}
 >
   <div className="row g-0 align-items-center">
     {/* Image */}
@@ -23,19 +23,19 @@ function HorizontalCard({ logo, title, subject, grade, description, animation = 
         src={logo}
         alt="logo"
         className="img-fluid rounded"
-        style={{ maxHeight: "200px", objectFit: "cover" }}
+        style={{ maxHeight: "150px", objectFit: "cover" }}
       />
     </div>
 
     {/* Card Body */}
     <div className="col-md-8">
       <div className="card-body card-text-area">
-        <h5 className="text-3xl fw-bold text-info">{title}</h5>
-        <div className="text-2xl gap-2 mb-2">
-          <span className="text-light">{subject}</span><br/>
-          <span className="text-light">{grade}</span>
+        <h5 className="text-2xl fw-bold text-info">{title}</h5>
+        <div className="text-lg gap-2 mb-2">
+          <span className="text-light fw-bold">{subject}</span><br/>
+          <span className="text-light fw-bold">{grade}</span>
         </div>
-        <p className="card-text text-light text-xl">{description}</p>
+        <p className="card-text text-light text-lg">{description}</p>
       </div>
     </div>
   </div>
