@@ -7,7 +7,7 @@ function ResumePage() {
   return (
     <>
     <Navbar/>
-    <div className="w-full min-h-screen bg-gray-950 pt-6 flex flex-col items-center mt-20  animate__animated animate__fadeIn">
+    <div className="w-full min-h-screen bg-gray-950 pt-6 flex flex-col items-center mt-20  animate__animated ">
       <div className="w-100 max-w-5xl" style={{ height: 'calc(100vh - 120px)' }}>
   <iframe
     src={`${resume}#zoom=page-width`}
