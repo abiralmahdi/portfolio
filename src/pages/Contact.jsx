@@ -90,6 +90,19 @@ const sendEmail = (e) => {
               </div>
 
               <div className="relative mb-4">
+                <label htmlFor="contact" className="leading-7 text-sm text-gray-400">
+                  Contact
+                </label>
+                <input
+                  type="number"
+                  id="contact"
+                  name="user_contact"
+                  required
+                  className="w-full bg-gray-800 rounded border border-gray-700 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-900 text-base outline-none text-gray-100 py-2 px-3 transition-colors duration-200"
+                />
+              </div>
+
+              <div className="relative mb-4">
                 <label htmlFor="email" className="leading-7 text-sm text-gray-400">
                   Email
                 </label>
