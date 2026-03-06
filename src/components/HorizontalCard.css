@@ -13,3 +13,21 @@
     box-shadow: inset 0 4px 15px rgba(111, 179, 239, 0.3); /* inner cyan glow */
     transform: translateY(-5px); /* lift the card */
   }
+
+  /* Desktop default */
+.card-text-area {
+  text-align: left;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+  .card-text-area {
+    text-align: center;
+  }
+
+  .card-horizontal img {
+    margin: 0 auto;
+  }
+
+}

@@ -94,7 +94,7 @@ const sendEmail = (e) => {
                   Contact
                 </label>
                 <input
-                  type="number"
+                  type="text"
                   id="contact"
                   name="user_contact"
                   required

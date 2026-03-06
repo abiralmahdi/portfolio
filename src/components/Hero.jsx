@@ -1,6 +1,7 @@
 import dp from "../assets/img/dp.png";
 import configuration from "../assets/configurations.json";
 import CustomButton from "./CustomButton.jsx";
+import "./Hero.css"
 
 function Hero() {
     return(
@@ -14,7 +15,7 @@ function Hero() {
         src={dp}
       />
     </div>
-    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center animate__animated animate__fadeInRight">
+    <div className="hero-text lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center animate__animated animate__fadeInRight">
       <p className="mb-2 leading-relaxed text-2xl">Hello! I'm</p>
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-info animate__animated animate__fadeIn">Abir Al Mahdi Akhand</h1>
       <p className="mb-8 leading-relaxed text-xl">{configuration.introBio}</p>

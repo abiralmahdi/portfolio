@@ -1,0 +1,36 @@
+/* Desktop default */
+.experience-text {
+    text-align: left;
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+  
+    .experience-text {
+      text-align: center;
+    }
+  
+    .experience-text h2,
+    .experience-text p {
+      text-align: center;
+    }
+  
+  }
+
+  /* Desktop default */
+.experience-logo {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .experience-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+}

@@ -1,1 +1,18 @@
 
+/* Desktop default */
+.hero-text {
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+    .hero-text {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .hero-text .flex {
+      justify-content: center;
+    }
+  }

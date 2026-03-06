@@ -29,7 +29,7 @@ function HorizontalCard({ logo, title, subject, grade, description, animation = 
 
     {/* Card Body */}
     <div className="col-md-8">
-      <div className="card-body">
+      <div className="card-body card-text-area">
         <h5 className="text-3xl fw-bold text-info">{title}</h5>
         <div className="text-2xl gap-2 mb-2">
           <span className="text-light">{subject}</span><br/>
